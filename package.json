@@ -1,0 +1,15 @@
+{
+  "name": "arhitect_employees",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^11.0.5"
+  },
+  "dependencies": {
+    "@architect/functions": "github:architect/functions",
+    "dayjs": "^1.11.10"
+  }
+}
