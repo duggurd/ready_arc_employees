@@ -12,8 +12,7 @@ export async function handler (req) {
   let today = dayjs();
   if (requestParams.bdToday == true) {
     birthdays = birthdays.filter((b) => {
-    
-      return today.isSame(dayjs(b.birthday), 'day');
+      return dayjs().isSame(dayjs(b.nextBirthday), 'day');
     });
   }
   [].sort()
